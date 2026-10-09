@@ -1,48 +1,15 @@
 import './style.css';
 
 document.querySelector('#app').innerHTML = `
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Webarrow home"><span class="brand-mark">↗</span><span>web<span class="brand-arrow">arrow</span></span></a>
-    <nav class="nav-links" aria-label="Main navigation">
-      <a href="#services">What we do</a><a href="#process">How it works</a><a href="#proof">Results</a>
-    </nav>
-    <a class="button button-small button-dark" href="#contact">Start a conversation <span>↗</span></a>
-    <button class="menu-toggle" aria-label="Open menu">☰</button>
-  </header>
-
+  <header class="site-header"><a class="brand" href="#top" aria-label="Webarrow home"><span class="brand-mark">↗</span><span>web<span class="brand-arrow">arrow</span></span></a><nav class="nav-links" aria-label="Main navigation"><a href="#services">Services</a><a href="#locations">Locations</a><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav><button class="theme-toggle" aria-label="Toggle colour theme">◐</button><a class="button button-small button-gradient" href="#audit">Free audit <span>↗</span></a><button class="menu-toggle" aria-label="Open menu">☰</button></header>
   <main id="top">
-    <section class="hero section-shell">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> Your digital growth partner</p>
-        <h1>Be the obvious choice <em>where it matters.</em></h1>
-        <p class="hero-intro">Webarrow builds the websites, visibility and digital experiences that help local businesses get found — and get chosen.</p>
-        <div class="hero-actions"><a class="button button-gradient" href="#contact">Let’s make an impact <span>↗</span></a><a class="text-link" href="#services">Explore our capabilities <span>↓</span></a></div>
-        <div class="hero-note"><span class="avatar-stack"><i></i><i></i><i></i></span><span>Built for ambitious businesses<br><strong>ready to move forward.</strong></span></div>
-      </div>
-      <div class="hero-art" aria-label="Abstract Webarrow growth illustration" role="img">
-        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-core">↗</div>
-        <span class="art-label label-top">local visibility</span><span class="art-label label-right">better journeys</span><span class="art-label label-bottom">real momentum</span>
-      </div>
-    </section>
-
-    <section class="trust-strip"><div class="section-shell trust-inner"><span>Good businesses deserve to be seen.</span><span class="trust-line"></span><span>From first search to first conversation.</span></div></section>
-
-    <section class="section-shell section" id="services">
-      <div class="section-heading"><p class="eyebrow">01 / What we do</p><h2>Digital that earns<br><em>attention — and action.</em></h2><p class="heading-copy">No noise. No vanity projects. Just thoughtful digital work that makes your business easier to discover, understand and choose.</p></div>
-      <div class="service-grid">
-        <article class="service-card service-featured"><span class="card-number">01</span><div><h3>Websites that work hard</h3><p>Clear, confident websites that turn the right visitors into the right enquiries.</p><a href="#contact">Explore web design <span>↗</span></a></div><div class="card-shape shape-lime">↗</div></article>
-        <article class="service-card"><span class="card-number">02</span><div><h3>Be found locally</h3><p>Search strategies that put you in front of people already looking for what you do.</p><a href="#contact">Explore local SEO <span>↗</span></a></div><div class="card-shape shape-pink">⌕</div></article>
-        <article class="service-card"><span class="card-number">03</span><div><h3>Turn clicks into customers</h3><p>Campaigns and journeys that make every visit, click and conversation count.</p><a href="#contact">Explore growth <span>↗</span></a></div><div class="card-shape shape-blue">↗</div></article>
-      </div>
-    </section>
-
-    <section class="dark-panel" id="process"><div class="section-shell process-layout"><div><p class="eyebrow eyebrow-light">02 / How we work</p><h2>Small enough<br>to <em>care.</em><br>Sharp enough<br>to deliver.</h2></div><div class="process-list"><div class="process-item"><span>01</span><div><h3>Get curious</h3><p>We start with the questions that uncover what makes your business different.</p></div></div><div class="process-item"><span>02</span><div><h3>Make it clear</h3><p>We turn the complexity into a focused plan your customers can feel.</p></div></div><div class="process-item"><span>03</span><div><h3>Make it move</h3><p>We launch, learn and keep improving what works in the real world.</p></div></div></div></div></section>
-
-    <section class="section-shell section proof" id="proof"><div class="proof-intro"><p class="eyebrow">03 / Why Webarrow</p><h2>Less chasing.<br><em>More choosing.</em></h2></div><div class="proof-grid"><div><strong>+42%</strong><span>more qualified<br>enquiries</span></div><div><strong>3.8×</strong><span>return on focused<br>campaigns</span></div><div><strong>1</strong><span>partner for your<br>next chapter</span></div></div></section>
-
-    <section class="cta-section" id="contact"><div class="cta-orb"></div><div class="section-shell cta-content"><p class="eyebrow eyebrow-light">Ready when you are</p><h2>Let’s make your<br>next move <em>count.</em></h2><p>Tell us where you want to go. We’ll help you work out the smartest way to get there.</p><a class="button button-light" href="mailto:hello@webarrow.co.uk">Start a conversation <span>↗</span></a></div></section>
-  </main>
-  <footer class="site-footer section-shell"><a class="brand" href="#top"><span class="brand-mark">↗</span><span>web<span class="brand-arrow">arrow</span></span></a><span>Web design, visibility & growth for ambitious businesses.</span><span>© ${new Date().getFullYear()} Webarrow</span></footer>
-`;
+    <section class="hero section-shell"><div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> London & North London</p><h1>Helping local businesses get found, get <em>leads</em> and grow.</h1><p class="hero-intro">Websites, SEO, Google Ads and digital solutions for businesses across London and the UK.</p><div class="hero-actions"><a class="button button-gradient" href="#audit">Get a free local SEO audit <span>↗</span></a><a class="button button-outline" href="#work">View our work</a></div></div><div class="hero-photo" role="img" aria-label="London skyline"></div></section>
+    <section class="trust-strip"><div class="section-shell trust-grid"><div>◉<strong>Local SEO Experts</strong></div><div>◷<strong>More Calls & Enquiries</strong></div><div>⌁<strong>Results-Driven</strong></div><div>✦<strong>Trusted by UK Businesses</strong></div></div></section>
+    <section class="section-shell section" id="locations"><div class="section-heading"><div><p class="eyebrow">01 / We work with</p><h2>Built for businesses<br><em>with somewhere to go.</em></h2></div><p class="heading-copy">From a trusted local service to a growing London brand, we make your next digital move clearer, sharper and more effective.</p></div><div class="industry-grid"><a href="#contact"><span class="industry-image image-restaurant"></span><strong>Restaurants & Cafés</strong><small>Get discovered locally ↗</small></a><a href="#contact"><span class="industry-image image-trades"></span><strong>Trades & Home Services</strong><small>Win more enquiries ↗</small></a><a href="#contact"><span class="industry-image image-health"></span><strong>Healthcare & Clinics</strong><small>Build trust online ↗</small></a><a href="#contact"><span class="industry-image image-professional"></span><strong>Professional Services</strong><small>Look the part ↗</small></a><a href="#contact"><span class="industry-image image-retail"></span><strong>Retail & E-commerce</strong><small>Sell more online ↗</small></a><a href="#contact"><span class="industry-image image-hospitality"></span><strong>Hotels & Hospitality</strong><small>Fill more rooms ↗</small></a></div></section>
+    <section class="service-band" id="services"><div class="section-shell"><div class="band-heading"><h2>A complete digital solution<br><em>for every business.</em></h2><a class="text-link" href="#contact">View all services <span>↗</span></a></div><div class="service-grid"><a href="#contact"><span class="service-icon">▣</span><strong>Website Design</strong><small>High-performing, mobile-first</small></a><a href="#contact"><span class="service-icon">⌑</span><strong>E-commerce</strong><small>Sell more online</small></a><a href="#contact"><span class="service-icon">⌖</span><strong>Local SEO</strong><small>Get found in London</small></a><a href="#contact"><span class="service-icon">▥</span><strong>Google Ads</strong><small>Reach the right customers</small></a><a href="#contact"><span class="service-icon">✦</span><strong>AI Solutions</strong><small>Work smarter with AI</small></a><a href="#contact"><span class="service-icon">▤</span><strong>Hosting & Support</strong><small>Safe, secure and reliable</small></a></div></div></section>
+    <section class="section-shell section" id="work"><div class="band-heading"><div><p class="eyebrow">02 / Featured work</p><h2>Work that makes<br><em>business sense.</em></h2></div><a class="text-link" href="#contact">View all work <span>↗</span></a></div><div class="work-grid"><article><div class="work-image work-bricks"></div><strong>Bricks & Bobs</strong><small>E-commerce website</small></article><article><div class="work-image work-safe"></div><strong>SafeStart</strong><small>Corporate website</small></article><article><div class="work-image work-law"></div><strong>SBG Solicitors</strong><small>Professional website</small></article></div></section>
+    <section class="local-panel" id="about"><div class="section-shell local-layout"><div><p class="eyebrow eyebrow-light">03 / Local, by design</p><h2>Helping businesses<br>across <em>London</em><br>get found.</h2><p>We understand the local search landscape — from North London neighbourhoods to businesses serving customers across the UK.</p><a class="button button-light" href="#contact">See how we can help <span>↗</span></a></div><div class="london-map">✦<span>North London</span><i>⌖</i><b>London</b></div></div></section>
+    <section class="audit-section" id="audit"><div class="section-shell audit-layout"><div><p class="eyebrow"><span class="status-dot"></span> Free instant audit · no signup</p><h2>See exactly why your website isn’t bringing <em>customers.</em></h2><p>We check what Google sees on mobile, your technical SEO, speed, security and conversion journey — then give you a clear action plan.</p></div><form class="audit-form"><label for="audit-url">Your website address</label><div><input id="audit-url" type="url" placeholder="yourwebsite.co.uk" required><button class="button button-gradient" type="submit">Run free audit <span>↗</span></button></div><small>No signup. Results in around 30 seconds.</small></form></div></section>
+  </main><footer class="site-footer section-shell"><a class="brand" href="#top"><span class="brand-mark">↗</span><span>web<span class="brand-arrow">arrow</span></span></a><span>Web design, visibility & growth for ambitious businesses.</span><span>© ${new Date().getFullYear()} Webarrow</span></footer>`;
 
 document.querySelector('.menu-toggle').addEventListener('click', () => document.querySelector('.nav-links').classList.toggle('is-open'));
