@@ -209,7 +209,7 @@ function FooterMap() {
 }
 
 function FooterCta() {
-  return <footer className="footer-cta" id="uk-map"><div className="footer-inner section-width"><div className="footer-copy"><b>Grow your business<br />across London and the UK.</b><small>Get a free SEO audit and find out how we can help you attract more local customers.</small><a className="footer-audit-btn" href="#contact">Get Your Free Audit <ArrowUpRight size={16} /></a></div><FooterMap /></div></footer>;
+  return <footer className="footer-cta" id="uk-map"><div className="footer-inner section-width"><div className="footer-copy"><span className="footer-eyebrow">LOCAL KNOW-HOW. UK-WIDE REACH.</span><b>Grow your business<br />across London and the UK.</b></div><small className="footer-description">Get a free SEO audit and find out how we can help you attract more local customers.</small><FooterMap /><a className="footer-audit-btn" href="#contact">Get Your Free Audit <ArrowUpRight size={16} /></a></div></footer>;
 }
 
 function Home() {
