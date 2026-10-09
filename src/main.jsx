@@ -11,6 +11,7 @@ import './overrides.css';
 const photos = {
   london: '/assets/webarrow-westminster-hero.png',
   londonAtRiver: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=2000&q=90',
+  home: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=90',
   restaurant: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=90',
   trades: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=90',
   clinic: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=90',
@@ -140,7 +141,7 @@ function DigitalGrowth() {
         <a className="text-link" href="#services">Discover Our Services <ArrowRight size={17} /></a>
       </div>
       <div className="laptop-stage" aria-label="A preview of a Webarrow-designed website" role="img">
-        <div className="laptop-screen"><div className="laptop-browser"><i /><i /><i /><span>yourbusiness.co.uk</span></div><div className="laptop-site" style={{ backgroundImage: `linear-gradient(90deg,#07132dcc,#07132d22),url(${projects[2].image})` }}><b>Beautiful work.<br />Built for growth.</b><span>Explore the website&nbsp; →</span></div></div>
+        <div className="laptop-screen"><div className="laptop-browser"><i /><i /><i /><span>yourbusiness.co.uk</span></div><div className="laptop-site" style={{ backgroundImage: `linear-gradient(90deg,#07132dcc,#07132d22),url(${photos.home})` }}><b>Beautiful work.<br />Built for growth.</b><span>Explore the website&nbsp; →</span></div></div>
         <div className="laptop-base" />
       </div>
     </div>
