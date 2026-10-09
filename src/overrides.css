@@ -172,7 +172,7 @@ nav{height:88px;padding:0 max(var(--page-gutter),calc((100% - var(--content-max)
 .footer-cta .footer-copy{display:flex;flex-direction:column;align-items:flex-start;gap:16px;max-width:600px}
 .footer-cta .footer-copy b{font:700 clamp(30px,3vw,48px)/1.08 Georgia,'Times New Roman',serif;letter-spacing:-.025em;white-space:normal}
 .footer-cta .footer-copy small{max-width:480px;font-size:17px;line-height:1.5;margin:0;color:#d3def3}
-.footer-cta .uk-map{width:min(100%,440px);height:290px;justify-self:center;overflow:visible;filter:drop-shadow(0 15px 28px #020d2440)}
+.footer-cta .uk-map{width:min(100%,280px);height:300px;justify-self:center;overflow:visible;filter:drop-shadow(0 15px 28px #020d2440)}
 .footer-cta .footer-audit-btn{display:inline-flex;align-items:center;gap:12px;margin-top:5px;padding:15px 25px;border-radius:999px;background:#0875f9;color:#fff;text-decoration:none;font-size:16px;font-weight:700;box-shadow:0 9px 24px #0066ed55;transition:background .2s ease,transform .2s ease}
 .footer-cta .footer-audit-btn:hover{background:#1685ff;transform:translateY(-2px)}
 .footer-cta .map-land{fill:#2855a2;stroke:#65b8ff;stroke-width:2;stroke-linejoin:round}
@@ -192,7 +192,7 @@ nav{height:88px;padding:0 max(var(--page-gutter),calc((100% - var(--content-max)
 .work-page>.gradient-btn{margin-top:35px;font-size:15px;padding:14px 22px}
 @media(max-width:1000px){
   nav{gap:18px}.links{gap:18px}.links a{font-size:13px}.nav-actions{gap:12px}.nav-actions>.gradient-btn{padding:12px 16px;font-size:13px}
-  .hero-copy{width:64%}.hero-photo{width:78%}.growth-main{gap:3%}.footer-cta{padding:42px var(--page-gutter)}.footer-cta .footer-inner{grid-template-columns:minmax(0,1fr) minmax(250px,.75fr);min-height:260px;gap:4%}.footer-cta .footer-copy b{font-size:clamp(28px,3.4vw,40px)}.footer-cta .uk-map{height:240px}
+  .hero-copy{width:64%}.hero-photo{width:78%}.growth-main{gap:3%}.footer-cta{padding:42px var(--page-gutter)}.footer-cta .footer-inner{grid-template-columns:minmax(0,1fr) minmax(250px,.75fr);min-height:260px;gap:4%}.footer-cta .footer-copy b{font-size:clamp(28px,3.4vw,40px)}.footer-cta .uk-map{height:250px}
 }
 @media(max-width:700px){
   nav{height:70px;padding:0 18px;gap:12px}.brand{font-size:22px}.nav-actions{margin-left:auto;gap:8px}.nav-actions>svg{display:none}.nav-actions>.gradient-btn{font-size:12px;padding:10px 14px}.menu{display:inline-flex;align-items:center;justify-content:center;background:transparent;border:0;padding:7px;color:#172342;cursor:pointer}
