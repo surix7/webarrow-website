@@ -47,3 +47,29 @@ footer{display:block;padding:28px 24px;background:linear-gradient(110deg,#0d397f
 .project-art.safe-start{background-position:center 44%}
 .project-art.sbg-solicitors::before{background:linear-gradient(90deg,rgba(17,29,50,.8),rgba(17,29,50,.05))}
 @media(max-width:700px){.project-art{min-height:78px;padding:8px;border-radius:5px;gap:3px}.project-brand{font-size:9px}.project-art strong{font-size:11px}.project-action{font-size:7px;padding:4px 7px}}
+
+/* Match the prototype's wide, inset section grid and clean project thumbnails. */
+:root{--page-gutter:clamp(24px,4.5vw,92px);--content-max:1860px}
+nav{padding-left:max(var(--page-gutter),calc((100% - var(--content-max))/2));padding-right:max(var(--page-gutter),calc((100% - var(--content-max))/2));gap:clamp(20px,2.4vw,42px)}
+.industries{padding:42px 0 34px}
+.industries .eyebrow,.industry-grid,.services .section-title,.services .service-grid,.featured .section-title,.featured-grid{width:calc(100% - var(--page-gutter) - var(--page-gutter));max-width:var(--content-max);margin-left:auto;margin-right:auto}
+.industry img{aspect-ratio:3.7;height:auto;border-radius:6px}
+.services{padding:52px 0 48px}
+.featured{padding:42px 0 50px}
+.featured-grid img,.project-art{aspect-ratio:2.75;height:auto;min-height:0;padding:0;border-radius:8px;background-size:cover;background-position:center;display:block}
+.project-art::before,.project-art>*{display:none}
+footer{padding:32px var(--page-gutter)}
+.footer-inner{width:100%;max-width:var(--content-max)}
+@media(min-width:701px) and (max-width:900px){.industry img{aspect-ratio:3}.featured-grid img,.project-art{aspect-ratio:2.5}}
+@media(max-width:700px){
+  nav{padding-left:18px;padding-right:18px;position:relative;z-index:5}
+  .links{display:none}
+  .links.is-open{display:flex;position:absolute;top:100%;left:0;right:0;z-index:10;padding:16px 20px;background:#fff;border-top:1px solid #eef0f7;box-shadow:0 12px 24px #1017291c;flex-direction:column;gap:16px}
+  .links.is-open a{font-size:14px}
+  .menu{display:inline-flex;align-items:center;justify-content:center;padding:8px;color:#14244c;cursor:pointer}
+  .nav-actions .gradient-btn{padding:9px 12px}
+  .industries,.services,.featured{padding-left:0;padding-right:0}
+  .industry img{aspect-ratio:2.3}
+  .featured-grid img,.project-art{aspect-ratio:2.2}
+  .footer-inner{width:100%}
+}
