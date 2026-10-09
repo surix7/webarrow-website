@@ -8,7 +8,7 @@
 .hero{height:600px;min-height:600px;overflow:hidden;background:#07132d;background-image:none}
 .hero-copy{z-index:2;width:58%;padding:72px 0 60px 8vw}
 .hero h1{font-size:clamp(42px,3.5vw,58px);line-height:.98}
-.hero-photo{display:block;position:absolute;inset:0 0 0 auto;width:50%;background-image:url('/assets/webarrow-westminster-hero.png')!important;background-size:cover;background-position:center center}
+.hero-photo{display:block;position:absolute;inset:0 0 0 auto;width:50%;background-size:cover;background-position:center center}
 .tower-shade{display:block;position:absolute;inset:0;background:linear-gradient(90deg,#07132d 0%,rgba(7,19,45,.58) 20%,rgba(7,19,45,.08) 57%,transparent 78%)}
 @media(max-width:700px){.hero{height:410px;min-height:410px;background:#07132d}.hero-copy{position:relative;width:100%;padding:38px 24px 28px}.hero h1{font-size:38px;line-height:.98}.hero p{font-size:12px}.hero-photo{inset:0;width:100%;background-position:70% center}.tower-shade{background:linear-gradient(90deg,rgba(4,12,31,.86),rgba(4,12,31,.55) 60%,rgba(4,12,31,.2))}.footer-map{display:none}}
 @media(min-width:701px){.hero-photo{background-position:right center}}
