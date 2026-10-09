@@ -200,17 +200,17 @@ function ContactForm() {
 }
 
 function FooterMap() {
-  return <svg className="uk-map" viewBox="0 0 240 240" role="img" aria-label="Map of the United Kingdom with service locations">
-    <path className="map-land" d="M111 8 126 12 139 20 146 29 139 37 150 44 144 52 154 60 148 68 157 76 150 85 158 93 152 102 160 111 152 120 156 129 148 137 151 147 143 155 145 165 137 173 138 181 130 188 129 197 121 202 118 212 111 221 104 217 100 207 92 204 88 196 80 193 78 185 71 179 76 171 69 164 75 156 68 149 74 141 68 134 75 126 69 118 77 111 72 103 79 96 75 88 83 81 79 73 88 67 84 59 94 53 90 45 101 39 98 31 108 27 105 19 113 15Z" />
-    <path className="map-land ireland" d="m54 112 9-3 8 4 5 8-4 8 3 7-7 7-8-2-4-7-7-3 2-8-4-5Z" />
-    <path className="map-land" d="m74 73 2-5 3 2-1 5Z M89 229l3 2-2 4-3-2Z" />
-    <g className="map-roads"><path d="M116 40 111 82 120 111 111 152 105 190" /><path d="M148 70 126 93 113 119 92 150" /></g>
-    <g className="map-pins"><circle cx="126" cy="57" r="5" /><circle cx="111" cy="115" r="5" /><circle cx="124" cy="164" r="5" /><circle cx="99" cy="180" r="4" /></g>
+  return <svg className="uk-map" viewBox="0 0 360 270" role="img" aria-label="Map of the United Kingdom and Ireland with service locations">
+    <path className="map-land ireland" d="m63 119 11-7 13 2 8 8 10 2 5 10-5 9 4 8-8 10-1 12-10 6-3 13-10 1-4 10-9-4-4-11-9-3-3-11-10-2 2-12-7-7 5-10-3-10 11-8 4-10Z" />
+    <path className="map-land" d="m188 13 16 4 12 9 11 2 9 11-4 10 13 8-3 11 13 9-8 12 9 8-5 11 11 11-8 11 9 10-9 11 8 11-10 10 5 12-10 10 3 13-9 9 2 12-10 8 1 12-10 6-3 12-11 3-5 12-11-1-5 10-11-7-3-12-11-3-4-11-11-4 1-11-10-5 4-12-8-8 6-11-7-9 7-10-7-11 9-8-6-11 9-9-5-12 11-6-4-12 11-6-2-12 12-3-1-11 11-5-4-13 10-4-2-12 12-6-1-11 14-2-1-12 14-4 2-12 13-2Z" />
+    <path className="map-land island" d="m167 104 8-3 6 5-2 8-7 3-6-5Z M214 242l5 4-3 8-6-3Z M244 76l5 4-2 5-5-3Z" />
+    <g className="map-roads"><path d="m198 38 13 30-10 30 15 27-13 31 12 27-12 31" /><path d="m227 75-17 23 20 19-24 20 18 23-25 20" /><path d="m89 132 9 20-5 19 8 20" /></g>
+    <g className="map-pins"><circle cx="207" cy="58" r="6" /><circle cx="216" cy="104" r="6" /><circle cx="210" cy="147" r="6" /><circle cx="201" cy="190" r="6" /><circle cx="99" cy="157" r="5" /></g>
   </svg>;
 }
 
 function FooterCta() {
-  return <footer className="footer-cta" id="uk-map"><div className="footer-inner section-width"><div className="footer-copy"><p className="eyebrow eyebrow-light">LOCAL KNOW-HOW. UK-WIDE REACH.</p><b>Grow your business<br />across London and the UK.</b><small>Get a free SEO audit and find out how we can help you attract more local customers.</small></div><FooterMap /><a className="gradient-btn" href="#contact">Get Your Free Audit <ArrowUpRight size={16} /></a></div></footer>;
+  return <footer className="footer-cta" id="uk-map"><div className="footer-inner section-width"><div className="footer-copy"><b>Grow your business<br />across London and the UK.</b><small>Get a free SEO audit and find out how we can help you attract more local customers.</small><a className="footer-audit-btn" href="#contact">Get Your Free Audit <ArrowUpRight size={16} /></a></div><FooterMap /></div></footer>;
 }
 
 function Home() {
