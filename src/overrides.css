@@ -167,7 +167,7 @@ nav{height:88px;padding:0 max(var(--page-gutter),calc((100% - var(--content-max)
 .submit-button{justify-self:start;font-size:15px;padding:13px 20px;cursor:pointer}
 .form-note{color:#73809a;font-size:12px}
 .footer-cta{position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 78% 48%,#103b79 0%,transparent 47%),linear-gradient(110deg,#06172d,#071d3e 58%,#06172d);color:#fff;padding:56px var(--page-gutter)}
-.footer-cta:before{content:"";position:absolute;z-index:-1;inset:0;opacity:.3;background-image:radial-gradient(circle at 73% 28%,#3f81df 0 1px,transparent 1.5px),radial-gradient(circle at 84% 66%,#3f81df 0 1px,transparent 1.5px),linear-gradient(145deg,transparent 42%,#24529a22 42.2%,transparent 43%),linear-gradient(35deg,transparent 61%,#24529a22 61.2%,transparent 62%);background-size:34px 34px,42px 42px,100% 100%,100% 100%}
+.footer-cta:before{content:"";position:absolute;z-index:-1;inset:0;opacity:.12;background-image:radial-gradient(circle at 73% 28%,#3f81df 0 1px,transparent 1.5px),radial-gradient(circle at 84% 66%,#3f81df 0 1px,transparent 1.5px),linear-gradient(145deg,transparent 42%,#24529a22 42.2%,transparent 43%),linear-gradient(35deg,transparent 61%,#24529a22 61.2%,transparent 62%);background-size:34px 34px,42px 42px,100% 100%,100% 100%}
 .footer-cta .footer-inner{position:relative;width:100%;max-width:var(--content-max);margin:0 auto;min-height:300px;display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.9fr);align-items:center;gap:6%}
 .footer-cta .footer-copy{display:flex;flex-direction:column;align-items:flex-start;gap:16px;max-width:600px}
 .footer-cta .footer-copy b{font:700 clamp(30px,3vw,48px)/1.08 Georgia,'Times New Roman',serif;letter-spacing:-.025em;white-space:normal}
